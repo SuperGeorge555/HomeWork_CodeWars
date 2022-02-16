@@ -17,9 +17,13 @@ public class Main {
                 new Person("Alina", "Sergeeva-Ostpyeva"),
                 new Person("Inna", "Nikiforova")
         };
-        for (int i = 0; i < person.length; i++) {
-            System.out.println(Person.getFullName(person[i]));
+        for (Person value : person) {
+            System.out.println(Person.getFullName(value));
         }
+
+        System.out.println(StringMerge.stringMerge("sdl'fkk;o", "sdafa", 'f'));
+        SumNumbers.sumNumbers("12", "13");
+        SumNumbers.sumNumbers("122", "13");
 
     }
 }
