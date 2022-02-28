@@ -20,4 +20,10 @@ public class StringMerge {
         str.reverse();
         return finalResult += str;
     }
+
+    public static String stringMergeV2(String firstWord, String secondWord, char a) {
+        String str = "dfgghfjdas";
+        str.indexOf(a);
+        return String.valueOf(str.indexOf(a));
+    }
 }

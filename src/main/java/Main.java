@@ -1,3 +1,5 @@
+import javax.sound.midi.Soundbank;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -23,7 +25,12 @@ public class Main {
 
         //System.out.println(StringMerge.stringMerge("sdl'fkk;o", "sdafakisd", 'f'));
         //SumNumbers.sumNumbers("12", "13");
-        SumNumbers.sumNumbers("122", "1088");
+        //SumNumbers.sumNumbers("122", "1088");
+        //System.out.println(StringMerge.stringMergeV2("sdl'fkk;o", "sdafakisd", 'f'));
+
+        System.out.println(Node.stringify(new Node(1, new Node(2, new Node(3)))));
+        System.out.println(Node.stringify(new Node(0, new Node(1, new Node(4, new Node(9, new Node(16)))))));
+        System.out.println(Node.stringify(null));
 
     }
 }

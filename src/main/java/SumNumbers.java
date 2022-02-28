@@ -23,8 +23,6 @@ public class SumNumbers {
             return b;
     }
 
-
-
     public static void sumNumbers(String a, String b) {
         int length = maxNumber(a, b);
         int count = 0;
@@ -34,8 +32,7 @@ public class SumNumbers {
 
         System.out.println("Length is: " + length);
 
-        for(int i = 0; i < Math.abs(a.length() - b.length()); i++)
-        {
+        for (int i = 0; i < Math.abs(a.length() - b.length()); i++) {
             newNumber += "0";
             count++;
         }
@@ -53,7 +50,6 @@ public class SumNumbers {
             result += resultNum;
         }
         System.out.println("Result is: " + result);
-
     }
 
 }
